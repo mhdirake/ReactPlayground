@@ -1,0 +1,113 @@
+.main-color-background {
+  background-color: rgba(221, 226, 232);
+}
+
+.shadow-custom--outside {
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.6),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-custom--inside {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
+    inset 8px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+
+.icon {
+  fill: rgba(75, 85, 99);
+}
+
+.container {
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(221, 226, 232);
+}
+
+.form-box {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  flex-direction: column;
+  align-items: center;
+  max-width: 24rem;
+  background-color: rgba(221, 226, 232);
+  border-radius: 40px;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.6),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  outline-style: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.form-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.form-information {
+  margin-bottom: 2.5rem;
+}
+
+.form-input {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 100px;
+  gap: 8px;
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
+    inset 8px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-input .form-input-icon {
+  margin-left: 1.25rem;
+}
+
+.form-wrapper {
+  margin-bottom: 2rem;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login-button {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: 1.25rem;
+  border-radius: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(221, 226, 232);
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-duration: 300ms;
+  transition-delay: 75ms;
+  border: none;
+  cursor: pointer;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.6),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
