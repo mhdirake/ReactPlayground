@@ -1,26 +1,4 @@
-.main-color-background {
-  background-color: rgba(221, 226, 232);
-}
-
-.shadow-custom--outside {
-  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.6),
-    6px 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.shadow-custom--inside {
-  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
-    inset 8px 8px 4px rgba(0, 0, 0, 0.2);
-}
-
-input::placeholder {
-  font-size: 14px;
-}
-
-.icon {
-  fill: rgba(75, 85, 99);
-}
-
-.container {
+.neumorphism-form .container {
   display: flex;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -33,7 +11,7 @@ input::placeholder {
   background-color: rgba(221, 226, 232);
 }
 
-.form-box {
+.neumorphism-form .form-box {
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -48,7 +26,7 @@ input::placeholder {
     6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-input {
+.neumorphism-form input {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   border-top-right-radius: 100px;
@@ -58,7 +36,7 @@ input {
   border-color: transparent;
 }
 
-.form-title {
+.neumorphism-form .form-title {
   margin-bottom: 0.25rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -66,11 +44,11 @@ input {
   letter-spacing: 0.05em;
 }
 
-.form-information {
+.neumorphism-form .form-information {
   margin-bottom: 2.5rem;
 }
 
-.form-input {
+.neumorphism-form .form-input {
   display: flex;
   position: relative;
   align-items: center;
@@ -80,11 +58,11 @@ input {
     inset 8px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-.form-input .form-input-icon {
+.neumorphism-form .form-input .form-input-icon {
   margin-left: 1.25rem;
 }
 
-.form-wrapper {
+.neumorphism-form .form-wrapper {
   margin-bottom: 2rem;
   margin-top: 1.25rem;
   display: flex;
@@ -92,7 +70,7 @@ input {
   gap: 1.5rem;
 }
 
-.login-button {
+.neumorphism-form .login-button {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   margin-bottom: 1.25rem;
